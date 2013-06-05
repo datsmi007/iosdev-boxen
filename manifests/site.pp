@@ -60,6 +60,7 @@ node default {
   package {
     [
       'mogenerator',
+      'git-flow',
     ]:
   }
 
