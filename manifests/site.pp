@@ -63,6 +63,10 @@ node default {
     ]:
   }
 
+  class { 'ruby::global':
+    version => '1.9.3'
+  }
+
   ruby::gem { 'cocoapods':
     gem => 'cocoapods',
     ruby => '1.9.3',
